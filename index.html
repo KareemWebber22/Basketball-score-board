@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&display=swap" rel="stylesheet"> 
+    </head>
+    <body>
+        <div class="scoreboard">
+            <div class="team-tag">
+                <h1>HOME</h1>
+                <p id="homescore">0</p>
+                <button class="points" onclick="homeOne()">+1</button>
+                <button class="points" onclick="homeTwo()">+2</button>
+                <button class="points" onclick="homeThree()">+3</button>
+            </div>
+            <div class="team-tag">
+                <h1>GUEST</h1>
+                <p id="guestscore">0</p>
+                <button class="points" onclick="guestOne()">+1</button>
+                <button class="points" onclick="guestTwo()">+2</button>
+                <button class="points" onclick="guestThree()">+3</button>
+            </div>
+            <script src="index.js"></script>
+        </div>
+    </body>
+</html>

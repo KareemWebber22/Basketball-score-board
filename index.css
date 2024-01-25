@@ -1,0 +1,58 @@
+body{
+    margin: 10px;
+}
+h1 {
+    color: aquamarine;
+    font-size: 35px;
+    margin-bottom: 0px;
+}
+.scoreboard {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    background-size: cover;
+    background-color: #001d3d;
+    border-radius: 10px;
+}
+#homescore {
+    padding: 5px 30px;
+    text-align: center;
+    background-color: black;
+    color: #f07167;
+    font-size: 70px;
+    font-weight: bold;
+    font-family: 'Orbitron', sans-serif;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    margin-top: 2px;
+}
+#guestscore {
+    padding: 5px 30px;
+    text-align: center;
+    background-color: black;
+    color: #f07167;
+    font-size: 70px;
+    font-weight: bold;
+    font-family: 'Orbitron', sans-serif;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    margin-top: 2px;
+}
+.points {
+    margin-bottom: 50px;
+    margin-top: 10px;
+    margin-left: 8px;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Orbitron', sans-serif;
+    height: 40px;
+    width: 40px;
+    background-color:#001d3d ;
+    color: #2ec4b6;
+    border: 2px solid #2ec4b6;
+    border-radius: 5px;
+    opacity: 0.9;
+}
+.points:hover {
+    font-size: 150%;
+  }
